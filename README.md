@@ -39,6 +39,6 @@ To test the model from pretrained weight, please run this script.
 
 <pre>
 <code>
-CUDA_VISIBLE_DEVICES [DEVICE TO RUN] python main.py --model basic --config config_val --workspace validation --loadmodel ./pretrained/weight.ckpt
+CUDA_VISIBLE_DEVICES [DEVICE TO RUN] python main.py --model basic --config config_val --workspace validation --loadmodel ./pretrained/weight.ckpt --mode test
 </code>
 </pre>
